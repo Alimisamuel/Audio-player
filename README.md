@@ -4,10 +4,12 @@
 
 Setup Procedure
 
+
+download Raleway font
 ## Project setup
 
 ```
-npm install
+open folder on vscode and Go Live
 ```
 
 
