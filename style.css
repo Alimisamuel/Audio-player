@@ -1,0 +1,159 @@
+body{
+    background: url('./img/Untitled-1.jpg');
+    background-size: cover;
+    font-family: raleway;
+}
+p{
+    font-size: 13px;
+}
+small{
+    color: white;
+    font-size: 9px;
+}
+marquee{
+    color: #f4cd3f;
+    font-size: 9px;
+}
+div{
+    /* border: 2px solid red; */
+}
+.speaker-container{
+    display: flex;
+    justify-content: space-between;
+}
+.speaker-1{
+   
+    width: 20%;
+}
+.speaker-2{
+   
+    width: 20%;
+}
+.container{
+    height: 38rem;
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+}
+.phone-container{
+    width: 35%;
+}
+.phone{
+    margin: auto;
+    width: 80%;
+    height: 30rem;
+}
+.one{
+    text-align: right;
+background-size: contain;
+background-repeat: no-repeat;
+opacity: 0.4;
+}
+.three{
+    opacity: 0.4; 
+}
+
+.inside-phone{
+    position: relative;
+    top: -36rem;
+    height: 35rem;
+}
+.top{
+    padding: 2.3rem;
+    padding-top: 1.5rem;
+    padding-bottom: 0.1rem;
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+}
+.now-playing{
+    padding-top: 0.5rem;
+}
+.middle{
+    height: 25rem;
+}
+.current-music-icon{
+    text-align: center;
+    position: relative;
+   
+}
+.current-music-icon img{
+animation: rotate 3s linear infinite;
+animation-play-state: paused;
+
+
+}
+.current-music-icon.play-icon img {
+  
+    animation-play-state: running;
+}
+
+@keyframes rotate {
+
+    from{
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+    
+}
+.wave{
+    text-align: center;
+    padding-right: 0.3rem;
+    margin-top: 0.8rem;
+}
+.duration{
+    display: flex;
+    justify-content: space-between;
+    padding: 0rem 2.5rem;
+}
+.controls{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+.con{
+    margin: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.music-details{
+    text-align: center;
+    padding: 0rem;
+    margin: 0rem;
+}
+.fade{
+    color: grey;
+    font-size: 0.5rem;
+    margin-bottom: 0rem;
+}
+.title-container{
+    margin: 0rem 3.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.bottom{
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.2rem 1.9rem;
+}
+.bot-icon{
+    width: 13%;
+    text-align: center;
+    padding-top: 0.5rem;
+    cursor: pointer;
+}

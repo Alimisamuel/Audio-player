@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio Player</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="speaker-container">
+    <div class="speaker-2">
+        <img src="./img/speaker.png" width="100px">
+    </div>
+    <div class="speaker-1">
+        <img src="./img/speaker-2.png" width="150px">
+    </div>
+</div>
+    <!-- speaker -->
+
+    <!-- main container -->
+    <div class="container">
+<div class="phone-container">
+    <div class="phone one">
+        <img src="./img/slide-1.png" width="53%">
+    </div>
+</div>
+<div class="phone-container">
+    <div class="phone two">
+        <img src="./img/phone.png" width="100%">
+        <div class="inside-phone">
+            <div class="top">
+                <div class="back">
+<img src="./img/back.svg" width="15px">
+                </div>
+                <div class="now-playing">
+<p>Now Playing</p>
+                </div>
+                <div class="dot">
+                    <img src="./img/options.svg" width="15px">
+                </div>
+            </div>
+            <!-- top -->
+
+            <div class="middle">
+<div class="current-music-icon ">
+    <img class="cover" src="./img/music.svg" alt="" >
+    <audio src="./Music/01 Overdose __ NaijaVibes.com.mp3" id="audio"></audio>
+</div>
+<div class="wave">
+    <img src="./img/waves.svg" alt=" waves" width="80%" >
+</div>
+<div class="duration">
+    <small>0:00</small>
+    <small>5:00</small>
+</div>
+<div class="controls">
+    <div class=" con skip-left">
+        <img src="./img/skip.svg" alt="" width="30px">
+    </div>
+   <div class="con play">
+    <img class="change" src="./img/play.svg" alt="" width="52px">
+   </div>
+   <div class=" con skip-right">
+    <img src="./img/skip-2.svg" alt="" width="30px">
+   </div>
+ 
+   
+</div>
+<div class="music-details">
+<p class="fade">SAMMY FT MCCS</p>
+<div class="title-container">
+   <marquee behavior="" direction="" class="song-title" scrolldelay="1" scrollamount="1 "> Nupat Anthem - Sammy ft the may code camp set | Downloaded from nupat-audio.com</marquee>
+</div>
+
+</div>
+            </div>
+            <!-- middle -->
+            <div class="bottom">
+                <div class="bot-icon">
+<img src="./img/shuffle.svg">
+                </div>
+                <div class="bot-icon">
+                    <img src="./img/repeat.svg">
+                </div>
+                <div class="bot-icon">
+                    <img src="./img/profile.svg">
+                </div>
+                <div class="bot-icon">
+                    <img src="./img/like.svg">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="phone-container">
+    <div class="phone three">
+        <img src="./img/phone-left.png" width="53%">
+       
+    </div>
+</div>
+    </div>
+<script src="index.js"></script>
+</body>
+</html>
